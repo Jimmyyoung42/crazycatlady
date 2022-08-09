@@ -5,7 +5,7 @@ body {
     height: 100%;
     width: 100%;
     display: grid;
-grid-template-columns: 35vw 1fr;
+grid-template-columns: 560px 1fr;
 grid-template-rows: 65vh 35vh;
 }
 
