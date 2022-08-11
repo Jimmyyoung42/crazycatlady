@@ -66,6 +66,8 @@ position: relative;
     height: 106px;
     padding:10px;
     position: relative;
+    margin-top:20px;
+    margin-left:20px;
 }
 #form {
     margin-left: 375px;
