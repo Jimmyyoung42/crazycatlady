@@ -100,14 +100,21 @@ padding: 10px;
     background-color:#EEEEEE;
     padding:10px;
 }
-#email:hover {
-background-image: none;
-border-bottom: 1px solid #EF4C87;
-}
-
-#password:hover {
-    background-image: none;
+#email:focus, #email:active, #email:hover {
+    border: none;
+    outline: none;
     border-bottom: 1px solid #EF4C87;
+    background-image: url("https://s3.amazonaws.com/btp-front-end-testing/person-Icon.png");
+    background-repeat: no-repeat;
+
+}
+#password:active, #password:focus,
+#password:hover {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #EF4C87;
+    background-image: url("https://s3.amazonaws.com/btp-front-end-testing/lock-icon.png");
+    background-repeat: no-repeat;
 }
 
 #sign-in {
