@@ -29,8 +29,8 @@ height: 100vh;
     background-image: url("https://s3.amazonaws.com/btp-front-end-testing/cats.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-background-size: 900px 780px;
-opacity: 0.3;
+background-position: 43% 0;
+opacity: 25%;
 }
 
 
